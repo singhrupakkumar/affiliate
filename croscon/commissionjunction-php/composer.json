@@ -1,0 +1,17 @@
+{
+    "name": "croscon/commissionjunction-php",
+    "type": "library",
+    "description": "A Commission Junction PHP API Library",
+    "keywords": ["commission junction", "commissionjunction", "cj"],
+    "license": "MIT",
+    "authors": [
+        {"name": "Daniel Cousineau", "email": "daniel.cousineau@croscon.com"}
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-0": { "CROSCON\\CommissionJunction": "lib/" }
+    }
+}
